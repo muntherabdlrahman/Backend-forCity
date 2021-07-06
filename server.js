@@ -11,6 +11,16 @@ const Moviescontroller =require('./Controllers/Movies.controller')
 
 
 
+
+
+
+
+
+
+
+
+
+
 app.get('/', (req, res) => {res.send('Hello World')})
 app.get('/weather',Weathercontroller);
 app.get('/movies',Moviescontroller);
